@@ -6,6 +6,7 @@ build
 
 # files
 canvas.tsx
+props.tsx
 todo.*
 
 # hidden
