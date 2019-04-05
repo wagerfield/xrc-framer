@@ -1,4 +1,5 @@
 {
+  "editor.formatOnSave": true,
   "files.exclude": {
     "**/build": true,
     "**/design": true,
