@@ -20,7 +20,7 @@ Use the `xrc` React component library in FramerX.
 5. From within the `xrc` repository run `yarn link`
 6. From within the `xrc-framer/xrc.framerfx` directory run `yarn link xrc`
 7. The `xrc.framerfx` project will now use your local `xrc` package
-8. From within the `xrc` repository run `yarn watch` to start the TypeScript compiler in watch mode
+8. From within the `xrc` repository run `yarn dev` to start the TypeScript compiler in watch mode
 
 When you make any changes to either the `xrc` or `xrc-framer` components, they will be instantly reflected inside the FramerX project. Hack away and enjoy!
 
