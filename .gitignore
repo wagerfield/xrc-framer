@@ -1,0 +1,20 @@
+# folders
+node_modules
+metadata
+design
+build
+
+# files
+canvas.tsx
+todo.*
+
+# hidden
+.backups
+.cache
+.npmrc
+
+# logs
+*.log
+
+# system
+.DS_Store
