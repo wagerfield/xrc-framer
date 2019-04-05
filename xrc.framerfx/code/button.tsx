@@ -1,7 +1,6 @@
 import * as React from "react"
 import { PropertyControls, ControlType } from "framer"
-import { Button as XButton } from "xrc"
-import { ButtonProps as XButtonProps } from "xrc/components/button/button.interface"
+import { Button as XButton, ButtonProps as XButtonProps } from "xrc"
 
 type Alignment = "flex-start" | "center" | "flex-end"
 
@@ -19,8 +18,9 @@ export class Button extends React.Component<ButtonProps> {
     height: 48,
     alignX: "center",
     alignY: "center",
-    appearance: "primary",
+    variant: "primary",
     size: "large",
+    flex: false,
     text: "Button"
   }
 
@@ -29,21 +29,21 @@ export class Button extends React.Component<ButtonProps> {
       type: ControlType.String,
       title: "Text"
     },
+    variant: {
+      type: ControlType.Enum,
+      options: ["primary", "secondary", "alternative"],
+      optionTitles: ["Primary", "Secondary", "Alternative"],
+      title: "Variant"
+    },
     size: {
       type: ControlType.SegmentedEnum,
       options: ["large", "small"],
       optionTitles: ["Large", "Small"],
       title: "Size"
     },
-    appearance: {
-      type: ControlType.Enum,
-      options: ["primary", "secondary", "alternative"],
-      optionTitles: ["Primary", "Secondary", "Alternative"],
-      title: "Appearance"
-    },
-    block: {
+    flex: {
       type: ControlType.Boolean,
-      title: "Block",
+      title: "Flex",
       enabledTitle: "True",
       disabledTitle: "False"
     },
