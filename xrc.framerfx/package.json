@@ -1,0 +1,17 @@
+{
+  "author": "Matthew Wagerfield",
+  "framer": {
+    "id": "05aaae44-0661-4e7b-803d-d7cb0374febf"
+  },
+  "dependencies": {
+    "xrc": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.12"
+  },
+  "peerDependencies": {
+    "framer": "^0.10",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
