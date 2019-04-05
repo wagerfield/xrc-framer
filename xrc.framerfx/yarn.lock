@@ -47,7 +47,7 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
   integrity sha512-eItQyV43bj4rR3JPV0Skpl1SncRCdziTEK9/v8VwXmV6d/qOUO8/EuWeHBbCZcsfSHfzI5UyMJLCSXtxxznyZg==
 
-"@types/react@^16.8.12":
+"@types/react@16.8.12":
   version "16.8.12"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.12.tgz#ffbdd7bcd2b7037c3f78e26c708922a2befbb71f"
   integrity sha512-MZZiv11BQhsxFp5DHDmRKBi6Nv3jwOhRiFFDE7ZJ1+rb52gdOd9y/qY0+5wyV/PQVK9926wFMjpQj3BJ18pb4Q==
@@ -217,7 +217,7 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
-xrc@^0.1.1:
+xrc@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/xrc/-/xrc-0.1.1.tgz#0fe1b587b19d06b5f1c0dd9b91bf0d66558f2fcf"
   integrity sha512-hS4SD15BraCisvAca8+1nlL/wH4fh5DpWW00IkbNDu+tv2MVsAUF56Cl7gs3Fdeg9dkvk/jaEPgZf+/IJkuxZw==
