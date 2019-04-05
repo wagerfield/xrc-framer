@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/build": true,
+    "**/design": true,
+    "**/metadata": true,
+    "**/node_modules": true,
+    "**/canvas.tsx": true,
+    "**/.backups": true,
+    "**/.cache": true,
+    "**/.npmrc": true,
+    "**/*.log": true
+  }
+}
