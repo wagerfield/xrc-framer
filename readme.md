@@ -1,6 +1,6 @@
 # XRC FramerX Project & Components
 
-Use the `xrc` React component library in FramerX.
+Use the `xrc` React component library in [FramerX][framer].
 
 ## Usage
 
@@ -36,12 +36,13 @@ It is recommended that you use [VSCode][vscode] with the following extensions:
 
 ### Debugging
 
-| Issue                                                 | Solution                                                         |
-| ----------------------------------------------------- | ---------------------------------------------------------------- |
-| Components render without styles                      | Quit Framer and open it again                                    |
-| Red boxes rendered with "Error in component-name.tsx" | Repeat development step 6 to re-symlink your local `xrc` package |
-| TypeScript errors reported in the project code files  | Repeat development step 6 to re-symlink your local `xrc` package |
+| Issue                                   | Solution                      |
+| --------------------------------------- | ----------------------------- |
+| Components render without styles        | Quit Framer and open it again |
+| Red boxes with "Error in component.tsx" | Repeat development step 6     |
+| TypeScript errors in code files         | Repeat development step 6     |
 
+[framer]: https://www.framer.com
 [vscode]: https://code.visualstudio.com
 [xrc-repository]: https://github.com/wagerfield/xrc
 [xrc-framer-repository]: https://github.com/wagerfield/xrc-framer
