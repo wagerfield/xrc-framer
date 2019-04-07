@@ -5,9 +5,11 @@
     "id": "00000000-0000-0000-0000-000000000000"
   },
   "dependencies": {
+    "ramda": "0.26.1",
     "xrc": "0.1.4"
   },
   "devDependencies": {
+    "@types/ramda": "0.26.6",
     "@types/react": "16.8.12"
   },
   "peerDependencies": {
