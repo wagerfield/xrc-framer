@@ -22,7 +22,26 @@ Use the `xrc` React component library in FramerX.
 7. The `xrc.framerfx` project will now use your local `xrc` package
 8. From within the `xrc` repository run `yarn dev` to start the TypeScript compiler in watch mode
 
-When you make any changes to either the `xrc` or `xrc-framer` components, they will be instantly reflected inside the FramerX project. Hack away and enjoy!
+When you make any changes to either the `xrc` or `xrc-framer` components, they will be instantly reflected inside the FramerX project.
 
+### IDE
+
+It is recommended that you use [VSCode][vscode] with the following extensions:
+
+- EditorConfig _by EditorConfig_
+- Prettier _by Esben Petersen_
+- Snapshot Tools _by Alexey Svetliakov_
+- TSLint _by Microsoft_
+- VSCode Styled Components _by Julien Poissonnier_
+
+### Debugging
+
+| Issue                                                 | Solution                                                         |
+| ----------------------------------------------------- | ---------------------------------------------------------------- |
+| Components render without styles                      | Quit Framer and open it again                                    |
+| Red boxes rendered with "Error in component-name.tsx" | Repeat development step 6 to re-symlink your local `xrc` package |
+| TypeScript errors reported in the project code files  | Repeat development step 6 to re-symlink your local `xrc` package |
+
+[vscode]: https://code.visualstudio.com
 [xrc-repository]: https://github.com/wagerfield/xrc
 [xrc-framer-repository]: https://github.com/wagerfield/xrc-framer
