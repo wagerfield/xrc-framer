@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "ramda": "0.26.1",
-    "xrc": "0.2.0"
+    "xrc": "0.14.2"
   },
   "devDependencies": {
     "@types/ramda": "0.26.6",
